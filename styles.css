@@ -1,0 +1,49 @@
+img {
+    transition:transform 0.25s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+}
+
+.p-3_m-0_border-0_bd-example {
+    background-image: url("background.jpg");
+    background-size: contain;
+  }
+
+.p-3_m-0_border-0_bd-example_ {
+    background-image: url("background1.jpg");
+    background-size: cover;
+  }
+
+p {
+    text-align: center;
+    border: 5px solid silver;
+}
+
+.shirt1 {
+    margin: 25px 125px 75px 125px;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    background-color: silver;
+    border: 5px solid black;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: black;
+    background-color: silver;
+    border: 5px solid black;
+}
+
+.logo {
+    border: 5px solid silver ;
+    margin: 20px 20px 20px 70px;
+}
+
